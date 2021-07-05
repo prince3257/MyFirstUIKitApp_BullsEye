@@ -14,13 +14,21 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-       
-    /*
-     This is for testing only!
-     Congrats Daniel, you've tried to use git on your own:)
-     Keep working on it!!!
-     You'll succeed.
-     */
+    //to tell the swift to connect with something in storyboard.
+    @IBAction func showAlert() {
+        
+        let alert = UIAlertController(title: "Hello World. :)", message: "This is my first app!", preferredStyle: .alert)
+        
+        let action = UIAlertAction(title: "Awesome!", style: .default, handler: nil)
+        
+        alert.addAction(action)
+        
+        present(alert, animated: true, completion: nil)
+    
+    }
+    
+   
+    
 
 }
 
