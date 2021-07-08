@@ -13,6 +13,10 @@
 		6579BD762692E1E000CAF5F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6579BD742692E1E000CAF5F1 /* Main.storyboard */; };
 		6579BD782692E1E700CAF5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6579BD772692E1E700CAF5F1 /* Assets.xcassets */; };
 		6579BD7B2692E1E700CAF5F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6579BD792692E1E700CAF5F1 /* LaunchScreen.storyboard */; };
+		65B172E82696B90900E1326B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B172E72696B90900E1326B /* AboutViewController.swift */; };
+		65B172EA2696BD2F00E1326B /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B172E92696BD2F00E1326B /* AboutAuthorViewController.swift */; };
+		65B172EC26972ED200E1326B /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 65B172EB26972ED100E1326B /* BullsEye.html */; };
+		65B172EE2697339500E1326B /* Daniel.html in Resources */ = {isa = PBXBuildFile; fileRef = 65B172ED2697339500E1326B /* Daniel.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		6579BD772692E1E700CAF5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6579BD7A2692E1E700CAF5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6579BD7C2692E1E700CAF5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B172E72696B90900E1326B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		65B172E92696BD2F00E1326B /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		65B172EB26972ED100E1326B /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		65B172ED2697339500E1326B /* Daniel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Daniel.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				6579BD772692E1E700CAF5F1 /* Assets.xcassets */,
 				6579BD792692E1E700CAF5F1 /* LaunchScreen.storyboard */,
 				6579BD7C2692E1E700CAF5F1 /* Info.plist */,
+				65B172E72696B90900E1326B /* AboutViewController.swift */,
+				65B172E92696BD2F00E1326B /* AboutAuthorViewController.swift */,
+				65B172EB26972ED100E1326B /* BullsEye.html */,
+				65B172ED2697339500E1326B /* Daniel.html */,
 			);
 			path = MyFirstUIKitApp_BullsEye;
 			sourceTree = "<group>";
@@ -125,8 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6579BD7B2692E1E700CAF5F1 /* LaunchScreen.storyboard in Resources */,
+				65B172EC26972ED200E1326B /* BullsEye.html in Resources */,
 				6579BD782692E1E700CAF5F1 /* Assets.xcassets in Resources */,
 				6579BD762692E1E000CAF5F1 /* Main.storyboard in Resources */,
+				65B172EE2697339500E1326B /* Daniel.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +153,9 @@
 			files = (
 				6579BD732692E1E000CAF5F1 /* ViewController.swift in Sources */,
 				6579BD6F2692E1E000CAF5F1 /* AppDelegate.swift in Sources */,
+				65B172E82696B90900E1326B /* AboutViewController.swift in Sources */,
 				6579BD712692E1E000CAF5F1 /* SceneDelegate.swift in Sources */,
+				65B172EA2696BD2F00E1326B /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

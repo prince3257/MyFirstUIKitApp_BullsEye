@@ -26,6 +26,23 @@ class ViewController: UIViewController {
         let roundedValue = slider.value.rounded()
         currentValue = Int(roundedValue)
         startNewRound()
+        
+        let thumbImageNormal = #imageLiteral(resourceName: "SliderThumb-Normal") //use Image Literal to pick the icon directly
+        //let thumbImageNormal = UIImage(named: "SliderThumb-Normal")!
+        slider.setThumbImage(thumbImageNormal, for: .normal)
+        
+        let thumbImageHighlight = #imageLiteral(resourceName: "SliderThumb-Highlighted")
+        slider.setThumbImage(thumbImageHighlight, for: .highlighted)
+        
+        let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right:14)
+    
+        let trackLeftImage = #imageLiteral(resourceName: "SliderTrackLeft")
+        let trackLeftResizable = trackLeftImage.resizableImage(withCapInsets: insets)
+        slider.setMinimumTrackImage(trackLeftResizable, for: .normal)
+        
+        let trackRightImage = #imageLiteral(resourceName: "SliderTrackRight")
+        let trackRightResizable = trackRightImage.resizableImage(withCapInsets: insets)
+        slider.setMaximumTrackImage(trackRightResizable, for: .normal)
     }
     
     //to tell the swift to connect with something in storyboard.
@@ -69,6 +86,13 @@ class ViewController: UIViewController {
     @IBAction func sliderMoved(_ slider: UISlider){
         let roundedValue = slider.value.rounded()
         currentValue = Int(roundedValue)
+    }
+    
+    @IBAction func startOver(){
+        round = 0
+        score = 0
+        startNewRound()
+
     }
     
     func startNewRound(){
